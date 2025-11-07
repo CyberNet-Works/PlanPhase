@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "planphase_fs": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-filesystem",
+        "--root",
+        "C:\\Users\\USER\\Downloads\\Code2025\\planphase",
+        "--read-only"
+      ]
+    }
+  }
+}

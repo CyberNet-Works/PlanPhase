@@ -1,0 +1,100 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.c
+*.cpp
+*.html  # Cython HTML output
+
+# Cython build
+cython_debug/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================
+# Virtual Environment
+# ============================
+venv/
+.env/
+ENV/
+.venv/
+
+# ============================
+# Django
+# ============================
+db.sqlite3
+*.log
+media/
+staticfiles/
+static_root/
+static/
+
+# ============================
+# Secrets & Custom Ignore Folder
+# ============================
+.env
+*.env
+.env.*
+secrets.env
+secrets.env.*
+.ignore/
+
+# (Your custom secret scripts like .ignore/create_postgres_db.py will be hidden)
+
+# ============================
+# IDE / Editor
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================
+# Docker & DevOps
+# ============================
+/docker/postgres/data/
+/docker/nginx/ssl/
+/docker/*.pid
+docker-compose.override.yml
+
+# ============================
+# Migrations (optional)
+# Uncomment the next lines ONLY if you want to ignore migrations globally
+# */migrations/
+# !*/migrations/__init__.py
+
+# ============================
+# Logs
+# ============================
+logs/
+*.out
+*.err
+
+# ============================
+# Backups & Dumps
+# ============================
+database/backups/
+*.sql
+*.dump
+*.tar.gz
+
+# ============================
+# Test / Coverage
+# ============================
+.htmlcov/
+.coverage
+coverage.xml
+.pytest_cache/
+tests/.pytest_cache/
+
+# ============================
+# OS Files
+# ============================
+.DS_Store
+Thumbs.db

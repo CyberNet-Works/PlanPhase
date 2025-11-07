@@ -1,0 +1,40 @@
+# Core
+django>=5.0
+djangorestframework
+python-dotenv
+
+# Database
+psycopg2-binary      # PostgreSQL
+mysqlclient          # Only if you'll support MySQL/MariaDB too
+
+# Auth / RBAC / Security
+django-allauth
+django-axes          # Brute-force protection
+django-cors-headers
+
+# Celery + Async Tasks
+celery
+redis                # Celery broker / Django cache
+django-celery-beat
+django-celery-results
+
+# Storage / CDN
+boto3                # AWS S3 or Cloudflare R2 storage backend
+django-storages
+
+# Email / Notifications
+django-anymail[mailgun]
+
+# Payments (Stripe example)
+stripe
+
+# Logging / Monitoring
+sentry-sdk
+python-json-logger
+
+# Deployment / Production
+gunicorn
+whitenoise           # Static files without CDN (dev or simple prod)
+
+# API utils / Others
+requests
